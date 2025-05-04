@@ -42,6 +42,10 @@
             </li>
 
             <li class="nav-item navItems">
+              <a class="nav-link navContent" aria-current="page" href="#experience">Work Experience</a>
+            </li>
+
+            <li class="nav-item navItems">
               <a class="nav-link navContent" aria-current="page" href="#personalProjects">Personal Projects</a>
             </li>
 
@@ -126,10 +130,71 @@
     </div>
   </section>
   
+  <section id="experience">
+    <h2 class="experience-header"><i class="fas fa-briefcase"></i> Work Experience</h2>
+    <div class="timeline">
+  
+      <!-- Data Engineer at PartsTrader Market Limited -->
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h4 class="job-title">Data Engineer</h4>
+          <span class="company-location">PartsTrader Market Limited, Wellington, NZ</span>
+          <span class="job-duration">March 2024 - Present</span>
 
-
-  <!-- Testimonials -->
-
+          <div class="job-section">
+            <h5>Tech Stack</h5>
+            <p class="tech-stack">Snowflake, dbt core, Python, Prefect (Airflow equivalent), Tableau, MS SQL Server, SSIS, MySQL, CData Sync, AWS</p>
+          </div>
+  
+          <div class="job-section">
+            <h5>Responsibilities</h5>
+            <ul>
+              <li>Built dbt models to support Tableau reporting, ensuring high-quality data with automated testing to reduce manual errors.</li>
+              <li>Developed Python UDFs for API data ingestion, ensuring seamless data pipeline integrations.</li>
+              <li>Led the migration of Snowflake service accounts to key-pair authentication for enhanced security, improving access control practices.</li>
+              <li>Configured authentication policies in Snowflake to ensure compliance with security best practices.</li>
+              <li>Implemented row-level access control, advising on Snowflake features and dbt solutions to streamline security and data governance.</li>
+              <li>Set up Cross-Cloud Data Sharing, enabling secure and efficient data exchange with customers and stakeholders.</li>
+              <li>Independently developed a PoC to automate Snowflake SQL deployments using GitHub Actions and Snowflake Git Integration. Presented it to the data team, leading to its consideration for production.</li>
+              <li>Developed Prefect ELT pipelines and integrated monitoring tools such as Slack and PagerDuty to ensure effective failure notifications.</li>
+              <li>Migrated Prefect 1 to Prefect 3, utilizing Docker to test and document breaking changes, ensuring smooth version upgrades.</li>
+              <li>Deployed and self-hosted Prefect Core pipelines on AWS infrastructure (Bastion and EC2), utilizing the free version for cost-effective pipeline orchestration.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Data Engineer at ANZ Bank -->
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h4 class="job-title">Data Engineer</h4>
+          <span class="company-location">ANZ Bank, Wellington, NZ</span>
+          <span class="job-duration">November 2021 - March 2024</span>
+  
+          <div class="job-section">
+            <h5>Tech Stack</h5>
+            <p class="tech-stack">Teradata (GCFR Framework), IBM DataStage, Control-M, Unix</p>
+          </div>
+  
+          <div class="job-section">
+            <h5>Responsibilities</h5>
+            <ul>
+              <li>Worked with Teradata’s GCFR framework and Financial Services Logical Data Model (FSLDM) to design and implement robust data pipelines for financial data integration and reporting.</li>
+              <li>Developed ELT processes using Teradata and IBM DataStage, optimizing query performance through partitioning, indexing, and statistics updates.</li>
+              <li>Ensured data integrity and compliance by working on regulatory projects like Prescribed Transaction Reporting (PTR), adhering to strict financial reporting standards.</li>
+              <li>Mentored new team members, resolving production issues to enhance the overall system performance and minimize downtime.</li>
+              <li>Collaborated with business analysts, product owners, and stakeholders to gather requirements and translate them into technical solutions that align with business goals.</li>
+              <li>Worked with cross-functional teams to troubleshoot data-related issues, ensuring data quality and system reliability.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+      
   <section id="personalProjects">
 
     <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
